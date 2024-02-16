@@ -155,9 +155,6 @@ cat > /usr/local/etc/xray/config.json << END
               "geosite:tiktok",
               "geosite:instagram",
               "geosite:twitch",
-              "geosite:vidio",
-              "geosite:disney",
-              "geosite:twitch",
               "geosite:category-ads",
               "geosite:category-ads-all",
               "geosite:cloudflare"
