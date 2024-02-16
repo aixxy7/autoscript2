@@ -149,7 +149,6 @@ cat > /usr/local/etc/xray/config.json << END
               "geosite:netflix",
               "geosite:steam",
               "geosite:telegram",
-              "geosite:tumblr",
               "geosite:speedtest",
               "geosite:bbc",
               "geosite:tiktok",
