@@ -150,6 +150,7 @@ Link gRPC : vmess://$(echo $vlink3 | base64 -w 0)
 END
 ISP=$(cat /usr/local/etc/xray/org)
 CITY=$(cat /usr/local/etc/xray/city)
+systemctl restart xray
 clear
 echo -e "————————————————————————————————————————————————————${NC}" | tee -a /user/log-vmess-$user.txt
 echo -e "                   Vmess Account                    " | tee -a /user/log-vmess-$user.txt
