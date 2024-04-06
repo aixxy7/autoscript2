@@ -137,7 +137,7 @@ cat > /usr/local/etc/xray/config.json << END
         {
            "type": "field",
            "domain": [
-              "geosite:openai",
+              "geosite:speedtest",
               "geosite:category-ads",
               "geosite:category-ads-all",
               "geosite:cloudflare"
