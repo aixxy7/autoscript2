@@ -146,7 +146,9 @@ cat > /usr/local/etc/xray/config.json << END
               "geosite:category-ads-all",
               "geosite:cloudflare"
               ],
-              "outboundTag": "WARP"
+              "outboundTag": "WARP",
+              "network": "tcp,udp",
+              "type": "field"
         }
       ]
    },
