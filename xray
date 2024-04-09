@@ -143,8 +143,7 @@ cat > /usr/local/etc/xray/config.json << END
               "geosite:cloudflare"
               ],
               "outboundTag": "WARP",
-              "network": "tcp,udp",
-              "type": "field"
+              "network": "tcp,udp"
         }
       ]
    },
