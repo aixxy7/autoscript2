@@ -161,7 +161,6 @@ echo -e "City          : $CITY" | tee -a /user/log-vmess-$user.txt
 echo -e "Domain        : $domain" | tee -a /user/log-vmess-$user.txt
 echo -e "Port TLS      : 443" | tee -a /user/log-vmess-$user.txt
 echo -e "Port NTLS     : 80" | tee -a /user/log-vmess-$user.txt
-echo -e "Port gRPC     : 443" | tee -a /user/log-vmess-$user.txt
 echo -e "id            : $uuid" | tee -a /user/log-vmess-$user.txt
 echo -e "AlterId       : 0" | tee -a /user/log-vmess-$user.txt
 echo -e "Security      : auto" | tee -a /user/log-vmess-$user.txt
@@ -173,10 +172,6 @@ echo -e "———————————————————————�
 echo -e "Link TLS      : $vmesslink1" | tee -a /user/log-vmess-$user.txt
 echo -e "————————————————————————————————————————————————————${NC}" | tee -a /user/log-vmess-$user.txt
 echo -e "Link NTLS     : $vmesslink2" | tee -a /user/log-vmess-$user.txt
-echo -e "————————————————————————————————————————————————————${NC}" | tee -a /user/log-vmess-$user.txt
-echo -e "Link gRPC     : $vmesslink3" | tee -a /user/log-vmess-$user.txt
-echo -e "————————————————————————————————————————————————————${NC}" | tee -a /user/log-vmess-$user.txt
-echo -e "Format Clash  : https://$domain/vmess/vmess-$user.txt" | tee -a /user/log-vmess-$user.txt
 echo -e "————————————————————————————————————————————————————${NC}" | tee -a /user/log-vmess-$user.txt
 echo -e "Expired On    : $exp" | tee -a /user/log-vmess-$user.txt
 echo -e "————————————————————————————————————————————————————${NC}" | tee -a /user/log-vmess-$user.txt
