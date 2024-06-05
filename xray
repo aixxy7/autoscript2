@@ -139,11 +139,7 @@ cat > /usr/local/etc/xray/config.json << END
            "domain": [
               "geosite:openai",
               "geosite:google",
-              "geosite:youtube",
-              "geosite:netflix",
-              "geosite:spotify",
-              "geosite:zoom",
-              "geosite:facebook",
+              "geosite:speedtest",
               "geosite:cloudflare"
               ],
               "outboundTag": "WARP"
