@@ -137,11 +137,16 @@ cat > /usr/local/etc/xray/config.json << END
         {
            "type": "field",
            "domain": [
-              "geosite:category-ads",
-              "geosite:category-ads-all"
+              "geosite:openai",
+              "geosite:google",
+              "geosite:youtube",
+              "geosite:netflix",
+              "geosite:spotify",
+              "geosite:zoom",
+              "geosite:facebook",
+              "geosite:cloudflare"
               ],
-              "outboundTag": "WARP",
-              "network": "tcp,udp"
+              "outboundTag": "WARP"
         }
       ]
    },
@@ -723,10 +728,10 @@ cat > /usr/local/etc/xray/config.json << END
     {
        "protocol": "wireguard",
        "settings": {
-          "secretKey": "yD2iamc8Px/vzQh5eXSJP1XG2CTJl+nK+Qf5enmfbFA=",
+          "secretKey": "yFFkMst/7WnJk7w7Ae+jVIU89IqmvB1tnh1TB+n0sUQ=",
           "address": [
              "172.16.0.2/32",
-             "2606:4700:110:86b8:2bfb:c840:6743:98b2/128"
+             "2606:4700:110:83da:51fd:ba86:b5b3:eeb0/128"
              ],
              "peers": [
                 {
